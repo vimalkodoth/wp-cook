@@ -61,9 +61,6 @@ define('WP_HOME','https://api.codeinjavascript.com');
 define('WP_SITEURL','https://api.codeinjavascript.com');
 /**#@-*/
 
-define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIA5UGWN467RYOLGJPA' );
-define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
-
 /**
  * WordPress Database Table prefix.
  *
