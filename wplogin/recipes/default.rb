@@ -1,3 +1,3 @@
-file '/var/www/staging/wp-login.php' do
+file '/var/www/wp-login.php' do
     action :delete
 end
