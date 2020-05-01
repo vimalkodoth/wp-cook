@@ -1,21 +1,6 @@
-# PHP Cookbook CHANGELOG
+# php Cookbook CHANGELOG
 
-This file is used to list changes made in each version of the PHP cookbook.
-
-## Unreleased
-
-## 7.0.0 (2019-08-07)
-
-- *Drop support for Chef 13* so we don't need to require build essentials
-- Sync php.ini template with php.ini-production from php-7.2.18
-
-## 6.1.1 (2018-08-07)
-
-- Pass in missing argument to manage_pecl_ini method when trying to remove a module
-
-## 6.1.0 (2018-07-24)
-
-- Allow default recipe to skip pear channel configuration
+This file is used to list changes made in each version of the php cookbook.
 
 ## 6.0.0 (2018-04-16)
 
@@ -49,7 +34,7 @@ This release removes the previous recipes in this cookbook for setting up variou
 
 - Converted the php_pear resource to a custom resource
 - Moved all helper logic out of the resource and into its own helper library file
-- Fix source install on Ubuntu by making sure we have xml2-config package
+- Fix source install on Ubuntu by making sure we have xml2-config package 
 - Remove options that are no longer recognised by the php installer when installing from source
 - Remove matchers as we no longer require them with a modern ChefDK
 
